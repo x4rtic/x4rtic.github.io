@@ -1,16 +1,23 @@
+:root {
+  --main-color: #ffffff;
+  --main-color2: #DCDCDC;
+  --bg-color: #222;
+  --bg-color2: #223; 
+}
+
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
-  background-color: #ffffff;
+  background-color: var(--main-color);
   color: #222;
   line-height: 1.6;
 }
 
 header {
-  background-color: #f2f2f2;
+  background-color: var(--main-color);
   text-align: center;
   padding: 2rem 1rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--main-color);
 }
 
 .profile-img {
